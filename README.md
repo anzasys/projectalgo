@@ -20,5 +20,10 @@ def main():
         elif pilih == "0":
             print("Terima kasih telah menggunakan Enaakin Restoran!")
             break
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nKeluar.")
         else:
             print("Pilihan tidak valid.")
